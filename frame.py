@@ -5,10 +5,17 @@
 # Try coding this with nested loops
 
 dna = 'ATGGCCTTT'
-position=0
+
 for i in range(len(dna)):
-    print(position,position%3,dna[i])
-    position+=1
+    print(i,i%3,dna[i])
+
+print('-------')
+
+for i in range(len(dna)):
+    position=i
+    frame=i%3
+    nucleotide=dna[i]
+    print(position,frame,nucleotide)
 
 print('-------')
 
