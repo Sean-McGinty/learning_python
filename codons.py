@@ -15,10 +15,7 @@ for f in range(3):
     for i in range(f,len(dna)-2,3):
         codon=dna[i:i+3]
         print(codon)
-#dna = ‘ATAGCGAATATCTCTCATGAGAGGGAA’ ROLLING AVERAGE
-#for i in range(len(dna)):
-#print(dna[0:3])
-    #print(dna[i:i+3])
+
 
 """
 ATA
