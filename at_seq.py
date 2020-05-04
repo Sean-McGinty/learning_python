@@ -14,10 +14,12 @@ count=0
 alphabet=3*"A"+2*"C"+3*"T"+ 2*"G"
 
 for i in range(length):
-    nt=random.choice(alphabet)
-    if nt=="A" or nt=="T":
-        count+=1
-        dna+=nt
+	nt=random.choice(alphabet)
+	if nt=="A" or nt=="T":
+		count+=1
+		dna+=nt
+	else:
+		dna+=nt
 print(length,count/length,dna)
 
 """
